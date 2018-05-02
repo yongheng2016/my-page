@@ -56,11 +56,26 @@ export default {
   }
 
   .background-panel {
+    position: relative;
     width: 100px;
     height: 130px;
     border-radius: 4px;
     margin: 8px 0;
-    box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.1), 4px 4px 2px 0 rgba(50, 50, 50, 0.1), 8px 8px 4px 0 rgba(100, 100, 100, 0.1);
+
+    // box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.1), 4px 4px 2px 0 rgba(50, 50, 50, 0.1), 8px 8px 4px 0 rgba(100, 100, 100, 0.1);
+    &::after {
+      content: '';
+      display: block;
+      height: 16px;
+      background: gold;
+      position: absolute;
+      bottom: 1px;
+      left: 0;
+      right: 0;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+      z-index: -1;
+    }
   }
 
   .HEX {

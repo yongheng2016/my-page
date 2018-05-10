@@ -109,6 +109,58 @@
               HEX: "#124895",
               RGB: "rbg(255,0,0)"
             }
+          ],
+          [{
+              name: "test3",
+              HEX: "#0000ff",
+              RGB: "rbg(0,0,255)"
+            },
+            {
+              name: "test1",
+              HEX: "#341245",
+              RGB: "rbg(255,0,0)"
+            },
+            {
+              name: "test1",
+              HEX: "#148535",
+              RGB: "rbg(255,0,0)"
+            },
+            {
+              name: "test1",
+              HEX: "#526623",
+              RGB: "rbg(255,0,0)"
+            },
+            {
+              name: "test1",
+              HEX: "#124895",
+              RGB: "rbg(255,0,0)"
+            }
+          ],
+          [{
+              name: "test3",
+              HEX: "#0000ff",
+              RGB: "rbg(0,0,255)"
+            },
+            {
+              name: "test1",
+              HEX: "#341245",
+              RGB: "rbg(255,0,0)"
+            },
+            {
+              name: "test1",
+              HEX: "#148535",
+              RGB: "rbg(255,0,0)"
+            },
+            {
+              name: "test1",
+              HEX: "#526623",
+              RGB: "rbg(255,0,0)"
+            },
+            {
+              name: "test1",
+              HEX: "#124895",
+              RGB: "rbg(255,0,0)"
+            }
           ]
         ]
       };

@@ -18,6 +18,8 @@
   body {
     margin: 0;
     background: #e1e1e1;
+  /* background: linear-gradient(90deg,#0f141c 0,#172b49 100%); */
+  background: #fdfff3;
   }
   
   #app {
